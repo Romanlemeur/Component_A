@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 # Paths are relative to the repo root (where you run the command from).
 DATA = Path("data/prices.csv")
 OUT = Path("outputs/plot.png")
-WINDOW = 20  # trading days
+WINDOW = 20  
 
 
 def main() -> None:
@@ -38,3 +38,6 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+print("hello world")
+
